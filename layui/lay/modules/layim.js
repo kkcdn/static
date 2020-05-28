@@ -7,7 +7,7 @@ layui.define(["layer", "laytpl", "upload"], function(i) {
         l = layui.device(),
         s = "layui-show",
         o = "layim-this",
-        d = 20,
+        d = 60,
         r = {},
         c = function() {
             this.v = a, e("body").on("click", "*[layim-event]", function(i) {

@@ -85,6 +85,7 @@ var obj = {
 
         switch (res.type) {
             case "chatMessage":
+                console.log("接收到消息:"+JSON.stringify(res.data));
                 layim.getMessage(res.data);
 
                 break;
